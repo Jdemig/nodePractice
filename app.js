@@ -19,7 +19,7 @@ app.use(bodyParser());
 app.use(require('./todos'));
 
 //start the server
-app.listen(1337, function() {
+app.listen(8080, function() {
 	console.log('ready on port 1337');
 });
 
